@@ -1,0 +1,55 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 100vh;
+	font-family: 'Inter', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: url(images/austin-lowman-o77YEqQNYsM-unsplash.jpg) no-repeat
+		center center/ cover;
+}
+
+.container {
+	.heading {
+		color: blue;
+	}
+	background-color: #fff;
+	border-radius: 20px;
+	height: 450px;
+	width: 60%;
+	text-align: center;
+	box-shadow: 0 0 5px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	padding: 30px;
+}
+
+button {
+	padding: 10px;
+	border-radius: 20px;
+	font-weight: 700;
+	background-color: blue;
+	cursor: pointer;
+	box-shadow: 0 0 2px;
+	transition: background-color 3s ease-in;
+
+	&:hover {
+		background-color: green;
+	}
+}
+
+.text-container {
+	color: red;
+	font-weight: 700;
+	font-size: 1.2rem;
+	line-height: 1.6rem;
+}
